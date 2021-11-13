@@ -2,7 +2,8 @@
 Data and R scripts - Self-Organizing Map approach to cluster Brazilian agricultural spatiotemporal diversity - PESQBASE 2021
 [All data avialable here] 
 
-[incluir figura do método proposto]
+
+![plot](./images/FigureProposedMethod.png)
 
 ## Steps 1 and 2 - Panel data generation
 
@@ -24,11 +25,20 @@ vsom -din entropy.diversity.indices_formatoSOM_PAK.csv -cin map25x30initv1.cod -
 ## Step 4 - SOM clustering
 Using R's kohonen package cluster the trained SOM: 5-ClusterizacaoSOM.R
 
+![plot](./images/FigureSOMClustering.png)
+
+
 ## Step 5  - Component Planes
 Using R's kohonen package generate the Component Planes: 6-ComponentPlanes.R
 
+![plot](./images/FigureComponentPlanes.png)
+
 ## Step 6 - Cluster the municipalities following the trajectory of each observation onto the neural map
 Using R's kohonen and kml packages cluster municipalities: 7-TrajectoryAnalysis.R
+
+![plot](./images/FigureMeanClusterTrajectories.png)
+
+![plot](./images/FigureClusteredGeographicalMap.png)
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
