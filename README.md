@@ -43,6 +43,14 @@ Using R's kohonen and kml packages cluster municipalities: 7-TrajectoryAnalysis.
 
 ![plot](./images/FigureClusteredGeographicalMap.png)
 
+## K-means clustering
+
+![plot](./images/FigureC8_KML3D.png)
+
+## Model-based clustering
+
+![plot](./images/FigureC6_GLMM_MCMC.png)
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [All data avialable here]: <https://drive.google.com/drive/folders/1VpKM5aiZMUY_L_x_ivLPWmGIsx58IBZK?usp=sharing>
