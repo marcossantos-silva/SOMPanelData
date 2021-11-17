@@ -20,9 +20,11 @@ Statistics results: basicStats.entrpy.indices.csv.
 
 ## Step 3 - SOM creation and training
 Using the SOM_PAK software: http://www.cis.hut.fi/research/som_pak/.
+
 Generate a trained SOM.
 
 lininit -din entropy.diversity.indices_formatoSOM_PAK.csv -cout map25x30initv1.cod -xdim 25 -ydim 30 -topol hexa -neigh gaussian.
+
 vsom -din entropy.diversity.indices_formatoSOM_PAK.csv -cin map25x30initv1.cod -cout map25x30trainedv1.cod -rlen 100000 -alpha 0.05 -radius 30.
 
 ## Step 4 - SOM clustering
