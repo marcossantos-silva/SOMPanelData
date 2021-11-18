@@ -1,7 +1,7 @@
 # SOMPanelData
-Data and R scripts - Self-Organizing Map approach to cluster Brazilian agricultural spatiotemporal diversity - PESQBASE 2021.
+Data and R scripts - Self-Organizing Map approach to cluster Brazilian agricultural spatiotemporal diversity - 1st place in PESQBASE 2021.
 
-[All data avialable here]. 
+[All data available here]. 
 
 ## Steps to cluster spatial panel data
 ![plot](./images/FigureProposedMethod.png)
