@@ -1,2 +1,0 @@
-lininit -din entropy.diversity.indices_formatoSOM_PAK.csv -cout map25x30initv1.cod -xdim 25 -ydim 30 -topol hexa -neigh gaussian
-vsom -din entropy.diversity.indices_formatoSOM_PAK.csv -cin map25x30initv1.cod -cout map25x30trainedv1.cod -rlen 100000 -alpha 0.05 -radius 30
