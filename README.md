@@ -59,5 +59,5 @@ Using R's kohonen and kml packages cluster municipalities: 7-TrajectoryAnalysis.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [All data avialable here]: <https://drive.google.com/drive/folders/1VpKM5aiZMUY_L_x_ivLPWmGIsx58IBZK?usp=sharing>
+   [All data available here]: <https://drive.google.com/drive/folders/1VpKM5aiZMUY_L_x_ivLPWmGIsx58IBZK?usp=sharing>
    [longitudinal.data.v.github_1.csv]: <https://drive.google.com/file/d/1SV6Peo3fuRiYMoH8Jq51lLt-by_ffDKi/view?usp=sharing>
